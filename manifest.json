@@ -1,16 +1,16 @@
 {
-	"manifest_version": 2,
-	"name": "nRandom",
-	"version": "1.2",
-	"description": "Troque todas as imagens do site por fotos aleatórias.",
-	"icons": {
-    	"48": "icon48.png",
-        "128": "icon128.png"
-    },
-	"content_scripts": [
-	    {
-	      "matches": ["*://*/*"],
-	      "js": ["jquery.js", "app.js"]
-	    }
-  	]
+  "manifest_version": 2,
+  "name": "iBit",
+  "version": "1.2",
+  "description": "A new way to visualize images on web",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["jquery.js", "app.js"]
+    }
+  ]
 }
